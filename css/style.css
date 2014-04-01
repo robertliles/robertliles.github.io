@@ -29,7 +29,7 @@
 
 	h1,h2,h3,h4,h5,h6
 	{
-		font-weight: 200;
+		font-weight: 500;
 		color: #666;
 		line-height: 1.5em;
 	}
@@ -1130,3 +1130,18 @@
 		{
 			background-color: #e8edec;
 		}
+    
+    div.resume{
+      text-align: left;
+      font-size: 0.9em;
+      padding-left: 40px;
+    }
+    
+    div.resume ul {
+      list-style: initial;
+      padding-left: 20px;
+    }
+    
+    div.resume ul li {
+      text-align: left;
+    }
