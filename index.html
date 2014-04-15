@@ -1,244 +1,76 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue 1.2 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!doctype html>
 <html>
-	<head>
-		<title>Robert Liles</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600" rel="stylesheet" type="text/css" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-      <link rel=​"stylesheet" href=​"https:​/​/​use.typekit.net/​c/​ec3976/​adobe-garamond-pro:​i4:​n4:​n6.Xs1:​…a1752d76a82bd22a089da8da2277c583449303ddd0b231432b25a19e44d12c03698e5b1141">​
-		</noscript>
-		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-	</head>
-	<body>
+  <head>
+    <title>Robert Liles</title>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="main">
+      <span class="subhead">Robert Liles</span><br>
+      <br>
+      I am a web developer specializing in Ruby on Rails and JavaScript.<br>
+      I like solving problems and making things look nice.<br>
+      <br>
+      Resume: <a href="liles-resume.pdf">PDF</a><br>
+      <br>
+      <span class="subhead">Work Samples</span><br>
+      <br>
+      
+      <div class="work-sample">
+        <div class="thumbnail">
+          <img src="images/couchshare.png">
+        </div>
+        <div class="thumbnail-text">
+        Couchshare<br>
+        A sample travelers' app. Ruby on Rails and Backbone.js<br>
+        <a href="http://www.couchshare.net">live</a> | <a href="https://github.com/robertliles/Couchshare">github</a>
+        </div>
+      </div>
 
-		<!-- Header -->
-			<div id="header" class="skel-panels-fixed">
+      <div class="work-sample">
+        <div class="thumbnail">
+          <img src="images/conway.png">
+        </div>
+        <div class="thumbnail-text">
+        Conway's Game of Life<br>
+        The famous cellular automaton in JavaScript<br>
+        <a href="http://htmlpreview.github.io/?https://github.com/robertliles/GameOfLife/blob/master/index.html">live</a> | <a href="https://github.com/robertliles/GameOfLife">github</a>
+        </div>
+      </div>
+      
+      <div class="work-sample">
+        <div class="thumbnail">
+          <img src="images/literecord.png">
+        </div>
+        <div class="thumbnail-text">
+        LiteRecord<br>
+        ActiveRecord query interface in Ruby metaprogramming<br>
+        <a href="https://github.com/robertliles/LiteRecord">github</a>
+        </div>
+      </div>
+      
+      <div class="work-sample">
+        <div class="thumbnail">
+          <img src="images/asteroids.png">
+        </div>
+        <div class="thumbnail-text">
+        Asteroids.js<br>
+        Arcade classic written in JavaScript on HTML5's canvas<br>
+        <a href="http://htmlpreview.github.io/?https://github.com/robertliles/asteroids.js/blob/master/index.html">live</a> | <a href="https://github.com/robertliles/Asteroids.js">github</a>
+        </div>
+      </div>
+      
+      <br>
 
-				<div class="top">
+      <span class="subhead">Contact</span><br>
+      <br>
+      <a href="https://github.com/robertliles">github</a><br>
+      <a href="https://www.linkedin.com/in/robertliles">linkedin</a><br>
+      <a href="mailto:robert.l.liles@gmail.com">email</a>
+      <br><br><br>
+      
 
-					<!-- Logo -->
-						<div id="logo">
-							<!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
-							<h1 id="title">Robert Liles</h1>
-							<span class="byline">Web Developer</span>
-						</div>
-
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
-							
-								Prologue's nav expects links in one of two formats:
-								
-								1. Hash link (scrolls to a different section within the page)
-								
-								   <li><a href="#foobar" id="foobar-link" class="skel-panels-ignoreHref"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld"><span class="fa fa-whatever-icon-you-want">Foobar</span></a></li>
-							
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-panels-ignoreHref"><span class="fa fa-circle">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-panels-ignoreHref"><span class="fa fa-circle">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-panels-ignoreHref"><span class="fa fa-circle">R&eacute;sum&eacute;</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-panels-ignoreHref"><span class="fa fa-circle">Contact</span></a></li>
-							</ul>
-						</nav>
-						
-				</div>
-				
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://github.com/robertliles" class="fa fa-github solo"><span>Github</span></a></li>
-							<li><a href="https://www.linkedin.com/in/robertliles" class="fa fa-linkedin solo"><span>Dribbble</span></a></li>
-							<li><a href="mailto:robert.l.liles@gmail.com" class="fa fa-envelope solo"><span>Email</span></a></li>
-						</ul>
-				
-				</div>
-			
-			</div>
-
-		<!-- Main -->
-			<div id="main">
-			
-				<!-- Intro -->
-					<section id="top">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Robert Liles</h2>
-							</header>
-							
-							<p>I am a web developer specializing in Ruby on Rails and JavaScript. I began teaching myself to code while researching on a Fulbright grant in Seoul, South Korea and have since enjoyed creating clean, responsive web apps.</p>
-
-							<footer>
-							  <!-- &#215; &#215; &#215; -->
-							</footer>
-
-						</div>
-					</section>
-					
-				<!-- Portfolio -->
-					<section id="portfolio">
-						<div class="container">
-					
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-						
-							<div class="row">
-								<div class="4u">
-									<article class="item">
-										<a href="http://www.couchshare.net" class="image full"><img src="images/couchshare.png" alt="" /></a>
-										<header>
-											<h3>Couchshare</h3>
-                      <h5>A sample travelers' network app</h4>
-										</header>
-									</article>
-                </div>
-                
-								<div class="4u">
-									<article class="item">
-										<a href="https://github.com/robertliles/literecord" class="image full"><img src="images/literecord.png" alt="" /></a>
-										<header>
-											<h3>LiteRecord</h3>
-                      <h5>An emulation of Rails' ActiveRecord query interface</h5>
-										</header>
-									</article>
-									</div>
-                  
-                <div class="4u">
-									<article class="item">
-										<a href="http://htmlpreview.github.io/?https://github.com/robertliles/asteroids.js/blob/master/index.html" class="image full"><img src="images/asteroids.png" alt="" /></a>
-										<header>
-											<h3>Asteroids.js</h3>
-                      <h5>A JavaScript arcade game</h4>
-										</header>
-									</article>
-								</div>
-								
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about">
-						<div class="container">
-
-							<header>
-								<h2>R&eacute;sum&eacute;</h2>
-							</header>
-				      <div class="resume">
-                
-              
-              <h3>Languages and Technologies</h3>
-              Ruby, Rails, JavaScript, Backbone.js, jQuery, Node.js, SQL, RSpec, HTML, CSS, Git, TDD
-              <br>
-              <br>
-              
-              <h3>Recent Projects</h3>  
-              <h4>Couchshare.net</h4>
-              (<a href="http://www.couchshare.net">live site</a> |
-              <a href="https://github.com/robertliles/couchshare">github</a>)
-              <ul>
-                <li>A clone of the traveler hosting network couchsurfing.org created with Ruby on Rails and Backbone.js</li>
-                <li>Facilitated integration with third-party map APIs by writing custom validations for geocoding user address input</li>
-                <li>Forked Backbone router initialization method to allow for flexible navigation between Backbone-generated views and Rails-generated views</li>
-                <li>Declared custom JSON structures for models to optimize data transfer 
-</li>
-              </ul> 
-              
-              <h4>LiteRecord</h4>
-              (<a href="https://github.com/robertliles/literecord">github</a>)
-              <ul>
-                <li>Replicated Rails’ Active Record query interface using Ruby metaprogramming</li>
-                <li>Used custom SQL queries to imitate Active Record’s find, update, and insert methods</li>
-              </ul>
-              
-              <h4>Asteroids.js</h4>
-              (<a href="http://htmlpreview.github.io/?https://github.com/robertliles/asteroids.js/blob/master/index.html">live site</a> | <a href="https://github.com/robertliles/asteroids.js">github</a>)
-              <ul>
-                <li>A re-creation of the classic arcade game using JavaScript and HTML5 Canvas</li>
-                <li>Used custom JavaScript inheritance method to simulate the motion of different objects in space</li>
-              </ul>
-              
-              <h3>Education</h3>
-              <h4>Yale University, New Haven, CT (2007-2012)</h4>
-              B.A. of Philosophy, <em>summa cum laude</em>, GPA: 3.96
-              <ul>
-              <li>Graduate-level coursework in Logical Computability and Philosophical Logic</li>
-              <li>Phi Beta Kappa academic honor society, induction extended to the top 10% of graduates</li>
-              </ul>
-              
-              <h3>Professional Experience</h3>
-              <h4>Fulbright Scholar, U.S. Department of State (August 2012-July 2013)</h4>
-              Affiliation: Seoul National University, Department of Aesthetics (Seoul, South Korea)
-              <ul>
-                <li>Research on the development of modern painting in Asia to be published in <em>Art Asia Pacific.</em> Contributed Korean-to-English translations to books on Korean modern art. Presented at the annual Fulbright conference in Jeju.
-</li>
-              </ul>
-              
-              <h4>Curatorial Assistant, Yale University Art Gallery (January 2008-May2012)</h4>
-              <ul>
-                <li>Revised museum database system to account for over 1000 works of art that had been previously un-searchable by the public.</li>
-                <li>Collaborated with senior curators to co-curate an exhibition of American minimal and conceptual art; exhibition positively reviewed in the <em>New York Times</em></li>
-              </ul>
-                
-                
-              </div>  
-
-						</div>
-					</section>
-			
-				<!-- Contact -->
-					<section id="contact">
-						<div class="container">
-
-							<header>
-								<h2>Contact</h2>
-							</header>
-
-							<p>email: <a href="mailto:robert.l.liles@gmail.com">robert.l.liles at gmail.com</a></p>
-              <p><a href="https://www.linkedin.com/in/robertliles">linkedin</a> | 
-                <a href="https://github.com/robertliles">github</a></p>
-							
-
-
-						</div>
-					</section>
-			
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-				
-				<!-- Copyright -->
-					<div class="copyright">
-						<ul class="menu">
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-				
-			</div>
-
-	</body>
+    </div>
+  </body>
 </html>

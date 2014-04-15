@@ -1,0 +1,34 @@
+body { 
+  font-family:"Vollkorn", "Georgia", "serif", monospace;
+  background:#fcfaf2;
+  color:#010101 
+}
+
+div#main { 
+  position:relative; 
+  width:500px;margin:0 
+  auto;top:80px 
+}
+a, a:link, a:visited, a:hover, a:active { 
+  color:#6D89FE 
+}
+
+span.subhead { 
+  font-size: 1.5em; 
+}
+
+div.work-sample {
+  width: 500px; 
+  height:80px; 
+  display: block;
+}
+
+div.thumbnail {
+  width:60px; 
+  height:60px; 
+  margin: 5px; 
+  overflow:hidden; 
+  float:right;
+}
+
+div.thumbnail-text {}
