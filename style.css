@@ -1,7 +1,10 @@
 body { 
   font-family:"Vollkorn", "Georgia", "serif", monospace;
   background:#fcfaf2;
-  color:#010101 
+  color:#010101; 
+  height:100%;
+     margin:0;
+     padding:0;
 }
 
 div#main { 
@@ -9,6 +12,7 @@ div#main {
   width:500px;margin:0 
   auto;top:80px 
 }
+
 a, a:link, a:visited, a:hover, a:active { 
   color:#6D89FE 
 }
@@ -32,3 +36,4 @@ div.thumbnail {
 }
 
 div.thumbnail-text {}
+
