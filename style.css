@@ -1,12 +1,12 @@
 body { 
   font-family: "PT Sans-serif", "Helvetica", "Arial";
-  font-size: 12px;
+  font-size: 14px;
   background: #E4F6F8;
   color: #010101; 
 }
 
 .main {
-  width: 520px;
+  width: 600px;
   margin: 50px;
 }
 
