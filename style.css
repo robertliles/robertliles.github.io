@@ -7,12 +7,6 @@ body {
   margin: 72px 0 72px 72px;
 }
 
-h1 {
-  font-size: 128px;
-  font-weight: bold;
-  margin-bottom: 32px;
-}
-
 h2 {
   font-size: 96px;
   font-weight: bold;
@@ -38,7 +32,7 @@ input, textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  width: 600px;
+  width: 500px;
   display: block;
   margin-bottom: 24px;
   font-size: 30px;
