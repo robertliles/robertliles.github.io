@@ -4,13 +4,13 @@ body {
   background: #d9ead3;
   color: #010101;
   max-width: 800px;
-  margin: 72px 0 72px 72px;
+  margin: 0 0 72px 72px;
 }
 
 h2 {
   font-size: 96px;
   font-weight: bold;
-  margin-bottom: 32px;
+  margin: 48px 0 32px 0;
 }
 
 h3 {
